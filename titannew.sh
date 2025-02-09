@@ -3,6 +3,9 @@
 sudo ufw allow 1234
 sudo ufw allow 55702
 sudo ufw allow 48710
+rm -rf Titan.sh .titanedge
+docker stop titan-edge-container
+docker rm titan-edge-container
 
 #!/bin/bash
 
